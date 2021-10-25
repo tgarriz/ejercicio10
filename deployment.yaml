@@ -1,7 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: arba
   name: pingapp210
   labels:
     app: pingapp210

@@ -1,15 +1,14 @@
 kind: Service
 apiVersion: v1
 metadata:
-  namespace: arba
-  name: pingapp
+  name: pingapp210
   labels:
-    app: pingapp
+    app: pingapp210
   annotations:
     dev.okteto.com/auto-ingress: "true"
 spec:
   selector:
-    app: pingapp
+    app: pingapp210
   ports:
   - protocol: TCP
     port: 8080
