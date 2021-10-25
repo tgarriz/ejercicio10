@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  namespace: arba
+  name: pingapp210-config-file
+  labels:
+    app: pingapp210
+data:
+  config.json |
+    {
+      "nombre" : "Garriz J.P."
+    }
