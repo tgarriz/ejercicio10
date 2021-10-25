@@ -5,7 +5,7 @@ metadata:
   labels:
     app: pingapp210
 data:
-  config.json |
+  config.json: |
     {
       "nombre" : "Garriz J.P."
     }
