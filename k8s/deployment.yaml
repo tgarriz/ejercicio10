@@ -28,7 +28,7 @@ spec:
       volumes:
         - name: config-files
           configMap:
-            name: "configmap-files"
+            name: "pingapp210-config-file"
             items:
             - key: "config.json"
               path: "config.json"
